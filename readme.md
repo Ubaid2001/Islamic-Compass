@@ -64,7 +64,19 @@ Installation
 <img height="350" width="175" alt="Home Page Light" src="https://github.com/user-attachments/assets/be31437e-3a16-494d-98cd-22a15dd5ce9d" />
 
 #### Books Page
-![Books Page](https://github.com/user-attachments/assets/1a35fa07-ba20-42ff-b277-edb0cc4961ac height=350 width=175)  
+<img height="350" width="175" alt="Books Page" src="https://github.com/user-attachments/assets/1a35fa07-ba20-42ff-b277-edb0cc4961ac" /> 
+<img height="350" width="175" alt="Books Page Light" src="https://github.com/user-attachments/assets/fc05bd18-c687-4505-9966-8d725ea54b2c" /> 
+
+#### Book Details Section
+
+<img height="350" width="175" alt="Book Details" src="https://github.com/user-attachments/assets/f8ed1c18-73d0-41d6-8331-0d210c184ad3" /> 
+<img height="350" width="175" alt="Book Details Light" src="https://github.com/user-attachments/assets/e72d6d8f-252d-4c8e-b239-995ffe51f83c" />
+
+#### Settings
+
+<img height="350" width="175" alt="Settings Page" src="https://github.com/user-attachments/assets/46a0fcd5-2dc1-48b4-bded-c628159129ce" /> 
+<img height="350" width="175" alt="Settings Page Light" src="https://github.com/user-attachments/assets/7429f475-a4c5-49d9-a009-6f71d3b483dc" /> 
+
 
 
 
