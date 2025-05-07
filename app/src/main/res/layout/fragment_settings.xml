@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SettingsFragment"
+    android:theme="@style/Theme.IslamicCompass"
+    android:background="?attr/colorPrimary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textColor="?attr/colorTertiary"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:id="@+id/darkmode"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="8dp"
+        app:cardPreventCornerOverlap="true"
+        android:id="@+id/cardveiw_gif">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gifImage"
+            android:src="@mipmap/turnoffshutoff"
+            android:scaleType="fitXY"
+            />
+    </com.google.android.material.card.MaterialCardView>
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/lightSwitch"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/cardveiw_gif"
+    android:text="Press Me"
+    android:backgroundTint="?attr/colorSecondary"
+    android:textColor="?attr/colorTertiary"/>
+
+</RelativeLayout>

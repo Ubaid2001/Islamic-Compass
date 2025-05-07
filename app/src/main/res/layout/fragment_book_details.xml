@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.BookDetailsFragment"
+    android:background="?attr/colorPrimary"
+    android:id="@+id/book_detail_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollview"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardview_image"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                android:layout_width="170dp"
+                android:layout_height="260dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:padding="50dp"
+                app:strokeColor="@color/darkGold"
+                app:strokeWidth="1dp"
+                app:cardBackgroundColor="?attr/colorPrimary">
+
+
+                <ImageView
+                    android:id="@+id/book_detail_Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardview_info"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:contentPadding="5dp"
+                app:strokeColor="@color/darkGold"
+                app:strokeWidth="1dp"
+                app:cardBackgroundColor="?attr/colorPrimary"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/book_detail_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Book: "
+                        android:textColor="?attr/colorTertiary"
+                        android:fontFamily="@font/belleza"
+                        android:textStyle="italic|bold"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:id="@+id/book_detail_author"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Author: "
+                        android:textColor="?attr/colorTertiary"
+                        android:fontFamily="@font/archivo_narrow"
+                        android:textStyle="italic"
+                        android:textSize="15sp"/>
+
+                    <TextView
+                        android:id="@+id/book_detail_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/belleza"
+                        android:text="Description: "
+                        android:textColor="?attr/colorTertiary"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardview_pdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+                android:layout_margin="5dp"
+                app:strokeColor="@color/darkGold"
+                app:strokeWidth="1dp"
+                app:contentPadding="5dp"
+                app:cardBackgroundColor="?attr/colorPrimary"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/card_rel">
+
+                    <TextView
+                        android:id="@+id/pdf_file"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="[PDF...]"
+                        android:layout_alignParentStart="true"
+                        android:fontFamily="@font/tomorrow_medium"
+                        android:textColor="@color/darkGold"
+                        android:autoSizeTextType="uniform"
+                        android:textSize="20sp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/download_image"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="5dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/open_icon"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/open_icon"
+                        />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

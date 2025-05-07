@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Islamic Compass</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">The drawer is open</string>
+    <string name="navigation_drawer_close">The drawer is close</string>
+    <string name="title_activity_sample_alarm">SampleAlarmActivity</string>
+</resources>

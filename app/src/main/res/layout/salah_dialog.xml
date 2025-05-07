@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tableLin"
+    android:orientation="vertical"
+    android:background="@layout/hadith_view">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tablelayout"
+        android:padding="10dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row1Salat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingRight="50dp"
+                android:textColor="?attr/colorTertiary"
+                android:text="Salah"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/belleza"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/row1Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Time"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:fontFamily="@font/archivo_narrow"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row2Salat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingRight="50dp"
+                android:textColor="?attr/colorTertiary"
+                android:text="Fajr"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/belleza"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/row2Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="06:13"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:fontFamily="@font/archivo_narrow"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row3Salat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingRight="50dp"
+                android:textColor="?attr/colorTertiary"
+                android:text="Sunrise"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/belleza"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/row3Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="08:26"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:fontFamily="@font/archivo_narrow"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row4Salat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingRight="50dp"
+                android:textColor="?attr/colorTertiary"
+                android:text="Dhuhur"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/belleza"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/row4Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="12:30"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:fontFamily="@font/archivo_narrow"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row5Salat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingRight="50dp"
+                android:textColor="?attr/colorTertiary"
+                android:text="Asr"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/belleza"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/row5Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="14:08"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:fontFamily="@font/archivo_narrow"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row6Salat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingRight="50dp"
+                android:textColor="?attr/colorTertiary"
+                android:text="Maghreb"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/belleza"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/row6Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="16:30"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:fontFamily="@font/archivo_narrow"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/row7Salat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="5dp"
+                android:paddingRight="50dp"
+                android:textColor="?attr/colorTertiary"
+                android:text="Isha"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"
+                android:fontFamily="@font/belleza"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/row7Time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="16:34"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:fontFamily="@font/archivo_narrow"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

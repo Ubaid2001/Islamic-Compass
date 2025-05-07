@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.CompassFragment">
+
+    <TextView
+        android:id="@+id/bearing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="0\u00B0"
+        android:textColor="?attr/colorTertiary"
+        android:textSize="60sp"/>
+
+    <TextView
+        android:id="@+id/bearingInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/bearing"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="?attr/colorTertiary"
+        android:fontFamily="@font/belleza"
+        android:textStyle="bold"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        app:cardElevation="50sp"
+        android:id="@+id/coorCard"
+        android:layout_below="@id/bearingInfo"
+        app:cardBackgroundColor="@color/gold"
+        app:contentPadding="5dp">
+
+        <TextView
+            android:id="@+id/coordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textColor="?attr/colorTertiary"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/coorCard"
+        android:id="@+id/linTabs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/hadith_fragment"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"/>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/salah_fragment"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relCompass"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/linTabs"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/compass"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_compassrevamped_foreground"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            />
+
+        <ImageView
+            android:id="@+id/pointer"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_arrow2_foreground" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.IslamicCompass" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+<!--        <item name="colorPrimary">@color/darkPrimary</item>-->
+        <item name="colorPrimary">@color/darkPrimary</item>
+>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/darkSecondary</item>
+
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/tertiary</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/darkPrimary</item>
+
+        <!-- Customize your card view here. -->
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+
+<!--        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>-->
+<!--        <item name="drawerArrowStyle">@style/Theme.IslamicCompass.DrawerArrowStyle</item>-->
+    </style>
+
+    <style name="Theme.SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorOnBackground">@color/darkPrimary</item>
+    </style>
+
+    <!-- CardView customization -->
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <!--<item name="cornerFamily">cut</item>-->
+        <!--<item name="cornerSize">8dp</item>-->
+        <item name="color">@color/white</item>
+    </style>
+
+    <!-- This will set the fade in animation on all your activities by default -->
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+<!--    &lt;!&ndash;    This will be the drawer arrow style&ndash;&gt;-->
+<!--    <style name="Theme.IslamicCompass.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">-->
+<!--        <item name="color">@android:color/white</item>-->
+<!--    </style>-->
+</resources>
