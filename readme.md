@@ -58,11 +58,15 @@ Installation
 
 #### Home Page
 
-<img height="350" width="175" alt="Home Page" src="https://github.com/user-attachments/assets/7920e162-14c6-4e0b-9725-acd117ace22a" />  <img height="350" width="175" alt="Home Page Hadith" src="https://github.com/user-attachments/assets/7abb3a97-e330-45f2-9342-c7eabd536884" />  <img height="350" width="175" alt="Home Page Prayer Times" src="https://github.com/user-attachments/assets/586ea0f3-7767-4975-9c43-a0dc026dd8c5" />
-
 <img height="350" width="175" alt="Home Page" src="https://github.com/user-attachments/assets/e76c889d-db8d-49cb-a8e1-5b5a34c9b90b" />
-<img height="350" width="175" alt="Home Page Hadith Times" src="https://github.com/user-attachments/assets/d8297595-4b8a-4cc5-a0f4-3c2ffd6a90af" />
-<img height="350" width="175" alt="Home Page Prayer Times" src="https://github.com/user-attachments/assets/08bff581-154f-43bb-bb31-ac4b41a53343" />
+<img height="350" width="175" alt="Home Page Prayer Times" src="https://github.com/user-attachments/assets/d8297595-4b8a-4cc5-a0f4-3c2ffd6a90af" />
+<img height="350" width="175" alt="Home Page Hadith Times" src="https://github.com/user-attachments/assets/08bff581-154f-43bb-bb31-ac4b41a53343" />
+<img height="350" width="175" alt="Home Page Light" src="https://github.com/user-attachments/assets/be31437e-3a16-494d-98cd-22a15dd5ce9d" />
+
+#### Books Page
+![Books Page](https://github.com/user-attachments/assets/1a35fa07-ba20-42ff-b277-edb0cc4961ac=350x175)  
+
+
 
 
 
