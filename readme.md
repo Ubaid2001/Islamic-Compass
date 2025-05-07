@@ -35,7 +35,7 @@ Islamic Compass is a comprehensive mobile application designed to serve as your 
 * User-friendly settings interface
 * Optimize for reading in different lighting conditions
 
-<img width="292" alt="Home Page Light" src="https://github.com/user-attachments/assets/8796b4b8-8f3c-44d3-9494-69358747fe16" />
+<img align="right" height="300" width="292" alt="Home Page Light" src="https://github.com/user-attachments/assets/8796b4b8-8f3c-44d3-9494-69358747fe16" />
 
 ## Benefits in Daily Life
 **Spiritual Direction**: Never miss a prayer with accurate times and Qibla direction regardless of where you are
