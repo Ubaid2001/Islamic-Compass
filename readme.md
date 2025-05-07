@@ -58,5 +58,5 @@ Installation
 
 #### Home Page
 
-<img height="250" width="100" alt="Home Page" src="https://github.com/user-attachments/assets/7920e162-14c6-4e0b-9725-acd117ace22a" /> <img height="250" width="100" alt="Home Page Hadith" src="https://github.com/user-attachments/assets/7abb3a97-e330-45f2-9342-c7eabd536884" /> <img height="250" width="100" alt="Home Page Prayer Times" src="https://github.com/user-attachments/assets/586ea0f3-7767-4975-9c43-a0dc026dd8c5" />
+<img height="350" width="200" alt="Home Page" src="https://github.com/user-attachments/assets/7920e162-14c6-4e0b-9725-acd117ace22a" />  <img height="350" width="200" alt="Home Page Hadith" src="https://github.com/user-attachments/assets/7abb3a97-e330-45f2-9342-c7eabd536884" />  <img height="350" width="200" alt="Home Page Prayer Times" src="https://github.com/user-attachments/assets/586ea0f3-7767-4975-9c43-a0dc026dd8c5" />
 
