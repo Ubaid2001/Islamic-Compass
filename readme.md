@@ -64,7 +64,7 @@ Installation
 <img height="350" width="175" alt="Home Page Light" src="https://github.com/user-attachments/assets/be31437e-3a16-494d-98cd-22a15dd5ce9d" />
 
 #### Books Page
-![Books Page](https://github.com/user-attachments/assets/1a35fa07-ba20-42ff-b277-edb0cc4961ac = 350x175)  
+![Books Page](https://github.com/user-attachments/assets/1a35fa07-ba20-42ff-b277-edb0cc4961ac =350x175)  
 
 
 
