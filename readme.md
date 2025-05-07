@@ -28,10 +28,8 @@ Islamic Compass is a comprehensive mobile application designed to serve as your 
   Salah-ad-Deen Al-Ayubi
   Abu Bakr As-Siddeeq
   Umar Ibn Al-Khattab
-* PDF download option for offline reading
--:
+-: PDF download option for offline reading
 <img align="right" height="300" width="292" alt="Home Page Light" src="https://github.com/user-attachments/assets/8796b4b8-8f3c-44d3-9494-69358747fe16" />
-:-
 ### ⚙️ Customization
 * Toggle between light and dark modes
 * User-friendly settings interface
